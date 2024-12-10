@@ -27,8 +27,7 @@ The softwares available in each image is given below. We will keep this updated 
 
 ### Version 1.0.0 (latest)
 
-This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
-- GNU compiler collection (v12.2.0)
-- Vim editor (v9.0.242)
+This image uses Ubuntu (22.04) as the base OS. Other important softwares installed include:
+- Gfortran compiler (v11.4.0)
+- Vim editor (v8.2)
 - GNU gdb (v.12.1.0)
-- duf utility

@@ -6,7 +6,7 @@ localfolder=${PWD}
 
 # DO NOT CHANGE ITEMS BELOW
 # This is the app name
-appname=ajaylab/fortran
+appname=harishlab/fortran
 
 # Host folder inside the image
 hostfolder=/home
