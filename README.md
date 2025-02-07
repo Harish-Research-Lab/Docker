@@ -10,11 +10,7 @@ The `Fortran` folder contains the information about this image and also the inst
 
 ## Creating new custom docker containers
 You can create multi-platform images and push to dockerhub by going into the folder and using the command
-`docker buildx build \
- --tag harishlab/fortran:1.0.0 \
- --platform linux/arm/v7,linux/arm64/v8,linux/amd64 \
- --builder container \
- --push .` (There is a . at the end. Do not miss that!)
+`docker buildx build --tag harishlab/fortran:1.0.0 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --builder container --push .` (There is a . at the end. Do not miss that!)
 
 In order to build other images of interest to you, replace:
 - `harishlab` with your own Docker username.
