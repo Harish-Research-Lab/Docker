@@ -32,16 +32,25 @@ Run instructions with screenshots for Windows is coming soon.
 ## Version history
 The softwares available in each image is given below. We will keep this updated as new images are released.
 
-### Version 1.0.0 (latest)
-
-This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
-- The issue with the alias added for commands "python" and "run-jupyter" have been fixed
-
-### Version 1.0.0 (latest)
+### Version 1.0.1 (latest)
 
 This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
 - Python (v3.10.7)
-- The list of python packages installed are given in requirements.txt
+- matplotlib==3.10.3
+- numpy==2.2.6
+- pandas==2.2.3
+- scikit_learn==1.6.1
+- seaborn==0.13.2
+- torch==2.7.0
+- scipy
+
+### Version 1.0.0
+
+This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
+- The issue with the alias added for commands "python" and "run-jupyter" have been fixed
+- Python (v3.10.7)
+- numpy
+- scipy
 
 # Authors
 
