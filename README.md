@@ -1,5 +1,5 @@
 # Docker containers
-This repository provides the docker files and the links to docker images from dockerHub. These docker images have been created for usage of the lab members to develop numerical methods and enhance reproducibility of the developed methods. We are always interested to help you if you would like to use our software or reproduce the results from our paper. 
+This repository provides the docker files and the links to docker images from dockerHub. All the images for our lab can be found on dockherHub at https://hub.docker.com/u/harishlab. These docker images have been created for usage of the lab members to develop numerical methods and enhance reproducibility of the developed methods. We are always interested to help you if you would like to use our software or reproduce the results from our paper. 
 
 Each of the docker images are documented in the particular folders. These docker images are based on Ubuntu base OS. We aim to add more images in the future. If there is something of interest, please feel free to contact us. 
 
