@@ -162,3 +162,4 @@ cython_debug/
 
 # Mac related
 .DS_Store
+.bash_history

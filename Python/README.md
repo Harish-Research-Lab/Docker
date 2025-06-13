@@ -32,20 +32,66 @@ Run instructions with screenshots for Windows is coming soon.
 ## Version history
 The softwares available in each image is given below. We will keep this updated as new images are released.
 
-### Version 1.0.1 (latest)
+### Version 1.0.8
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+- pandas (2.3.0)
+- matplotlib (3.10.3)
+- seaborn (0.13.2)
+- scikit-learn (1.7.0)
+- scipy (1.15.3)
+- torch (2.7.1) (Will pull GPU version on compatible architectures)
+- torchaudio (2.7.1)
+- torchvision (0.22.1)
 
-This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
-- Python (v3.10.7)
-- matplotlib==3.10.3
-- numpy==2.2.6
-- pandas==2.2.3
-- scikit_learn==1.6.1
-- seaborn==0.13.2
-- torch==2.7.0
-- scipy
+### Version 1.0.7
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+- pandas (2.3.0)
+- matplotlib (3.10.3)
+- seaborn (0.13.2)
+- scikit-learn (1.7.0)
+- scipy (1.15.3)
+- torch (2.7.1+cpu) (CPU-only version)
+
+### Version 1.0.6
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+- pandas (2.3.0)
+- matplotlib (3.10.3)
+- seaborn (0.13.2)
+- scikit-learn (1.7.0)
+- scipy (1.15.3)
+
+### Version 1.0.4 / 1.0.5
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+- pandas (2.3.0)
+- matplotlib (3.10.3)
+- seaborn (0.13.2)
+
+### Version 1.0.3
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+- pandas (2.3.0)
+
+### Version 1.0.2
+This image uses Ubuntu 25.01 as the base OS with Python 3.13.4. Python packages installed include:
+- pip (25.1.1)
+- numpy (2.3.0)
+
+### Version 1.0.1
+This image uses Ubuntu 22.04 as the base OS with Python 3.10.12. Python packages installed include:
+- pip (22.0.2)
+- setuptools (59.6.0)
+- wheel (0.37.1)
 
 ### Version 1.0.0
-
 This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
 - The issue with the alias added for commands "python" and "run-jupyter" have been fixed
 - Python (v3.10.7)
