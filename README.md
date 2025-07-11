@@ -18,3 +18,5 @@ In order to build other images of interest to you, replace:
 
 You can also copy an existing image and give it a new tag. Here is an example where we copy the fortran image of `old` is also given a tag of `new` using the command
 `docker tag harishlab/fortran:new harishlab/fortran:old`
+
+docker buildx build --tag harishlab/fortran:1.0.1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --builder container --push .
